@@ -7,7 +7,6 @@ const img = document.createElement('img');
 const imagenes = ['imgCarrito001', 'imgCarrito002', 'imgCarrito003'];
 let currentIndex = 0;
 
-// Función para generar los elementos de la galería
 function createGallery() {
     imagenes.forEach((img, index) => {
         const li = document.createElement('li');
@@ -22,7 +21,6 @@ function createGallery() {
     });
 }
 
-// Función para mostrar la imagen en el índice especificado
 function showImage(index) {
     const galleryItems = document.querySelectorAll('.carrousel li');
     galleryItems.forEach((li, i) => {
@@ -30,22 +28,18 @@ function showImage(index) {
     });
 }
 
-// Función para mostrar la siguiente imagen
 function showNextImage() {
     currentIndex = (currentIndex + 1) % imagenes.length;
     showImage(currentIndex);
 }
 
-// Función para mostrar la imagen anterior
 function showPrevImage() {
     currentIndex = (currentIndex - 1 + imagenes.length) % imagenes.length;
     showImage(currentIndex);
 }
 
-// Añadir eventos a los botones
 next.addEventListener('click', showNextImage);
 prev.addEventListener('click', showPrevImage);
 
-// Inicializar la galería
 createGallery();
 showImage(currentIndex);

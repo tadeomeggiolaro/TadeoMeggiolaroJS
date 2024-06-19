@@ -2,8 +2,6 @@ const carrito = JSON.parse(localStorage.getItem(`carrito`)) || [];
 
 renderCarrito(carrito);
 
-
-
 function quitarDelCarrito(prenda) {
     const carrito = JSON.parse(localStorage.getItem(`carrito`));
     let indice = carrito.findIndex((elemento) => elemento.id == prenda.id);
@@ -11,19 +9,14 @@ function quitarDelCarrito(prenda) {
     objetoDentroDeCarrito.cantidad = objetoDentroDeCarrito.cantidad - 1
     if (objetoDentroDeCarrito.cantidad == 0) {
         carrito.splice(indice, 1)
-
     }
     renderCarrito(carrito)
-    
-
     localStorage.setItem(`carrito`, JSON.stringify(carrito))
-
 }
 
 function renderCarrito(carrito) {
     const carritoSection = document.getElementById("carrito")
     carritoSection.innerHTML = ` `
-
     carrito.forEach(producto => {
         const article = document.createElement("article")
         article.innerHTML = `<img class="imgShop" src="${producto.imagen}" alt="">
@@ -51,6 +44,5 @@ function botonBorrar() {
             quitarDelCarrito(producto);
         })
     }
-    
-}
 
+}

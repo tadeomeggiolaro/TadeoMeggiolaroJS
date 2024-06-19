@@ -11,12 +11,13 @@
     justify-items: center;
 
 }
-.imgShop{
+
+.imgShop {
     width: 200px;
     height: 250px;
     border-top: 10px solid rgba(174, 160, 144, 0.438);
-    border-right: 10px solid rgba(174 ,160, 144);
-    border-left: 10px solid rgba(174 ,160, 144);
+    border-right: 10px solid rgba(174, 160, 144);
+    border-left: 10px solid rgba(174, 160, 144);
     border-bottom: 10px solid rgba(174, 160, 144, 0.438);
     display: block;
     margin-top: .625rem;

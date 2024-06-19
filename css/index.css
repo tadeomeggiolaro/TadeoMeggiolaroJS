@@ -5,11 +5,11 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* padding: 2rem; */
+
     width: 100%;
-    /* margin-left: auto;
-    margin-right: auto; */
+
 }
+
 .carrousel li {
     display: none;
 
@@ -27,14 +27,16 @@
     justify-content: center;
     align-items: center;
 }
-.botonera{
+
+.botonera {
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
 }
-.botonAnterior{
+
+.botonAnterior {
     background-color: rgb(174, 160, 144);
-    color: white ;
+    color: white;
     height: 2rem;
     padding: .25rem;
     border: none;
@@ -42,9 +44,10 @@
     cursor: pointer;
     margin: .25rem;
 }
-.botonSiguiente{
+
+.botonSiguiente {
     background-color: rgb(174, 160, 144);
-    color:white ;
+    color: white;
     height: 2rem;
     padding: .25rem;
     border: none;
