@@ -1,0 +1,23 @@
+.carritoDesing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100vw;
+    height: 9.375rem;
+    text-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    row-gap: .625rem;
+    justify-items: center;
+
+}
+.imgShop{
+    width: 200px;
+    height: 250px;
+    border-top: 10px solid rgba(174, 160, 144, 0.438);
+    border-right: 10px solid rgba(174 ,160, 144);
+    border-left: 10px solid rgba(174 ,160, 144);
+    border-bottom: 10px solid rgba(174, 160, 144, 0.438);
+    display: block;
+    margin-top: .625rem;
+}
