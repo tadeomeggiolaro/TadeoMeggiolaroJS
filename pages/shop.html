@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/generales.css">
     <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header><div class="nav-wraper">
-        <nav>
-            <div class="menu">
-                <ul>
-                    <li><a href="../index.html">Inicio/Home</a></li>
-                    <li><a href="#">Comprar/Shop</a></li>
-                    <img class="imgLogo" class="logo" src="../assets/logoPrincipal.png" alt="">
-                    <li><a href="../pages/carrito.html">Carrito/Shopping cart</a></li>
-                    <li><a href="../pages/aboutUs.html">Nosotros/About Us</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div></header>
+    <header>
+        <div class="nav-wraper">
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <div class="header1">
+                            <li><a href="../index.html">Inicio/Home</a></li>
+                            <li><a href="#">Comprar/Shop</a></li>
+                        </div>
+
+                        <img class="imgLogo" class="logo" src="../assets/logoPrincipal.png" alt="">
+
+                        <div class="header3">
+                            <li><a href="../pages/carrito.html">Carrito/Shopping cart</a></li>
+                            <li><a href="../pages/aboutUs.html">Nosotros/About Us</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
     <main>
         <h1>PANGEA</h1>
 
         <section class="sectionShop" id="shop"></section>
 
-    <script src="./js/shop.js"></script>
     </main>
-    <footer></footer>
+    <footer>
+        <section id="footerId" class="sectionFooter"></section>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../js/shop.js"></script>
+    <script src="../js/footer.js"></script>
 </body>
+
 </html>

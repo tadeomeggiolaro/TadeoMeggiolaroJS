@@ -4,7 +4,7 @@ const prev = document.querySelector('.botonAnterior');
 const next = document.querySelector('.botonSiguiente');
 const liImagen = document.createElement('li');
 const img = document.createElement('img');
-const imagenes = ['imgCarrito001', 'imgCarrito002', 'imgCarrito003'];
+const imagenes = ['imgCarrito001', 'imgCarrito002', 'imgCarrito003', 'imgCarrito004', 'imgCarrito005', 'imgCarrito006', 'imgCarrito007', 'imgCarrito008', 'imgCarrito009'];
 let currentIndex = 0;
 
 function createGallery() {

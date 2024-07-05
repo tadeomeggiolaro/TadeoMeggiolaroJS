@@ -12,20 +12,34 @@
         <nav>
             <div class="menu">
                 <ul>
-                    <li><a href="../index.html">Inicio/Home</a></li>
-                    <li><a href="../pages/shop.html">Comprar/Shop</a></li>
+                    <div class="header1">
+                        <li><a href="../index.html">Inicio/Home</a></li>
+                        <li><a href="../pages/shop.html">Comprar/Shop</a></li>
+                    </div>
+
                     <img class="imgLogo" class="logo" src="../assets/logoPrincipal.png" alt="">
 
-                    <li><a href="#">Carrito/Shopping cart</a></li>
-                    <li><a href="../pages/aboutUs.html">Nosotros/About Us</a></li>
+                    <div class="header3">
+                        <li><a href="#">Carrito/Shopping cart</a></li>
+                        <li><a href="../pages/aboutUs.html">Nosotros/About Us</a></li>
+                    </div>
                 </ul>
             </div>
         </nav>
+    </div></header>
+        
+        
+    <main>
         <h1>PANGEA</h1>
         <section id="carrito" class="carritoDesing"></section>
-    </div></header>
-    <main></main>
-    <footer></footer>
-    <script src="./js/carrito.js"></script>
+        <div><h3 id="total"></h3></div>
+        <div><button id="finalizarCompra" class="finCompraDesign">Finalizar Compra</button></div>
+    </main>
+    <footer>
+        <section id="footerId" class="sectionFooter"></section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/footer.js"></script>
 </body>
 </html>

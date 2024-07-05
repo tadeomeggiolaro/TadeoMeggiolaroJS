@@ -1,3 +1,10 @@
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-decoration: underline overline rgba(118,141,123);
+    padding-top: 10px;
+}
 .carrousel {
     list-style: none;
     padding: 0;
@@ -16,9 +23,13 @@
 }
 
 .carrousel li img {
-    width: 480px;
-    height: 840px;
+    width: 380px;
+    height: 520px;
     border-radius: 1rem;
+    border-top: 10px solid rgba(174, 160, 144, 0.438);
+    border-right: 10px solid rgba(174, 160, 144);
+    border-left: 10px solid rgba(174, 160, 144);
+    border-bottom: 10px solid rgba(174, 160, 144, 0.438);
 }
 
 .carrousel li.active {
@@ -35,8 +46,8 @@
 }
 
 .botonAnterior {
-    background-color: rgb(174, 160, 144);
-    color: white;
+    background-color: rgba(118,141,123);
+    color:white;
     height: 2rem;
     padding: .25rem;
     border: none;
@@ -46,7 +57,7 @@
 }
 
 .botonSiguiente {
-    background-color: rgb(174, 160, 144);
+    background-color: rgba(118,141,123);
     color: white;
     height: 2rem;
     padding: .25rem;
