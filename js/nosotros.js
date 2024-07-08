@@ -1,4 +1,4 @@
-const tituloParrafo=[{
+const ourContent=[{
     titulo:`Nuestra Historia`, 
     parrafo:`Somos una familia compuesta por padre, madre e hijo, apasionados por la moda sostenible y el cuidado del medio ambiente. Desde siempre, hemos creído en el poder de la reutilización y en la importancia de reducir nuestro impacto ecológico. De esta convicción nace nuestra empresa, un proyecto familiar que busca transformar ropa usada en nuevas prendas únicas y de alta calidad.`
 },
@@ -15,13 +15,13 @@ const tituloParrafo=[{
     parrafo:`Estamos comprometidos con la sostenibilidad y la moda ética. Trabajamos para minimizar nuestro impacto ambiental en cada etapa del proceso de producción y nos esforzamos por crear conciencia sobre la importancia de la reutilización y el reciclaje en la industria de la moda. Invitamos a nuestros clientes a unirse a nosotros en esta misión y a disfrutar de prendas que no solo lucen bien, sino que también hacen el bien.`
 }]
 
-const nosotros = document.getElementById(`history`)
-nosotros.innerHTML = `
+const history = document.getElementById(`history`)
+history.innerHTML = `
 <h1>Esta es la historia de Pangea</h1>
-<div id="nuestro"></div>
+<div id="divContent"></div>
 `
-const nuestro = document.getElementById(`nuestro`)
-tituloParrafo.forEach(element => {
+const nuestro = document.getElementById(`divContent`)
+ourContent.forEach(element => {
     const divNosotros = document.createElement(`div`)
     divNosotros.innerHTML = `<h2>${element.titulo}
     </h2>

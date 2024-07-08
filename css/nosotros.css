@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     background-color:  rgba(174, 160, 144, 0.604);
+    padding-bottom: 15px;
 }
 h1 {
     display: flex;

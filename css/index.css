@@ -19,12 +19,11 @@
 
 .carrousel li {
     display: none;
-
 }
 
 .carrousel li img {
-    width: 380px;
-    height: 520px;
+    width: 220px;
+    height: 330px;
     border-radius: 1rem;
     border-top: 10px solid rgba(174, 160, 144, 0.438);
     border-right: 10px solid rgba(174, 160, 144);
@@ -65,4 +64,18 @@
     border-radius: .25rem;
     cursor: pointer;
     margin: .25rem;
+}
+.tituloContaminacion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:  rgba(174, 160, 144, 0.579);
+}
+.contenidoContaminacion{
+    font-weight:800;
+    padding: 10px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    background-color:  rgba(174, 160, 144, 0.581);
+    
 }
